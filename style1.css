@@ -1,0 +1,61 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: pink;
+}
+
+h1 {
+	text-align: center;
+	background-color: blue;
+}
+
+#timer, #stopwatch {
+	display: inline-block;
+	margin: 20px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+button:active {
+	background-color: #4CAF50;
+}
+
+button:disabled {
+	background-color: #aaa;
+	cursor: default;
+}
+
+#stopTimer, #stopStopwatch {
+	background-color: #f44336;
+}
+
+#stopTimer:hover, #stopStopwatch:hover {
+	background-color: #da190b;
+}
+
+#stopTimer:active, #stopStopwatch:active {
+	background-color: #f44336;
+}
